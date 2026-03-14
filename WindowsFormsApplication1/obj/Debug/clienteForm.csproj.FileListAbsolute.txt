@@ -1,0 +1,10 @@
+C:\Users\domel\OneDrive\Desktop\GuidingExerciseOS\UNOClient\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+C:\Users\domel\OneDrive\Desktop\GuidingExerciseOS\UNOClient\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+C:\Users\domel\OneDrive\Desktop\GuidingExerciseOS\UNOClient\WindowsFormsApplication1\obj\Debug\clienteForm.csproj.AssemblyReference.cache
+C:\Users\domel\OneDrive\Desktop\GuidingExerciseOS\UNOClient\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form1.resources
+C:\Users\domel\OneDrive\Desktop\GuidingExerciseOS\UNOClient\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form2.resources
+C:\Users\domel\OneDrive\Desktop\GuidingExerciseOS\UNOClient\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\domel\OneDrive\Desktop\GuidingExerciseOS\UNOClient\WindowsFormsApplication1\obj\Debug\clienteForm.csproj.GenerateResource.cache
+C:\Users\domel\OneDrive\Desktop\GuidingExerciseOS\UNOClient\WindowsFormsApplication1\obj\Debug\clienteForm.csproj.CoreCompileInputs.cache
+C:\Users\domel\OneDrive\Desktop\GuidingExerciseOS\UNOClient\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+C:\Users\domel\OneDrive\Desktop\GuidingExerciseOS\UNOClient\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
