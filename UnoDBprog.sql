@@ -5,7 +5,8 @@ USE UnoGameDB;
 CREATE TABLE Player (
 					Id INTEGER PRIMARY KEY AUTO_INCREMENT,
 					Username VARCHAR(50) NOT NULL UNIQUE,
-					Password VARCHAR(255) NOT NULL
+					Password VARCHAR(255) NOT NULL,
+					Active TINYINT NOT NULL DEFAULT 1
 					);
 
 CREATE TABLE Matchy (
@@ -33,13 +34,13 @@ INSERT INTO Matchy (StartTime, DurationMinutes) VALUES ('2026-03-08 14:30:00', 2
 -- Match 2 played on March 8th, lasted 40 minutes
 INSERT INTO Matchy (StartTime, DurationMinutes) VALUES ('2026-03-08 16:00:00', 40);
 
--- Match 1
+-- Match 1: score 1 means win, score 0 means loss
 INSERT INTO Participation (PlayerId, MatchId, Score) VALUES (1, 1, 0);   
-INSERT INTO Participation (PlayerId, MatchId, Score) VALUES (2, 1, 15);  
-INSERT INTO Participation (PlayerId, MatchId, Score) VALUES (3, 1, 42);  
-INSERT INTO Participation (PlayerId, MatchId, Score) VALUES (4, 1, 12);
+INSERT INTO Participation (PlayerId, MatchId, Score) VALUES (2, 1, 0);  
+INSERT INTO Participation (PlayerId, MatchId, Score) VALUES (3, 1, 1);  
+INSERT INTO Participation (PlayerId, MatchId, Score) VALUES (4, 1, 0);
 
 -- Match 2
-INSERT INTO Participation (PlayerId, MatchId, Score) VALUES (1, 2, 50); 
-INSERT INTO Participation (PlayerId, MatchId, Score) VALUES (2, 2, 22);  
+INSERT INTO Participation (PlayerId, MatchId, Score) VALUES (1, 2, 1); 
+INSERT INTO Participation (PlayerId, MatchId, Score) VALUES (2, 2, 0);  
 INSERT INTO Participation (PlayerId, MatchId, Score) VALUES (4, 2, 0);
